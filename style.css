@@ -1,3 +1,7 @@
+/* ==========================================================================
+Global styles
+========================================================================== */
+
 * {
     box-sizing: border-box;
 }
@@ -29,6 +33,7 @@ body {
     background-image: url(https://codeberryschool.github.io/simple-quote-page/assets/freedom.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -40,4 +45,16 @@ body {
 
 small {
     font-size: smaller;
+}
+
+/* ==========================================================================
+Mobile styles
+========================================================================== */
+
+@media (max-width: 767px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
 }
