@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #333;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://codeberryschool.github.io/simple-quote-page/assets/freedom.jpg);
+    background-size: cover;
+    background-position: center;
+}
